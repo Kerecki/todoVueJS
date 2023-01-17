@@ -32,7 +32,7 @@ const todosApp = {
                 };
                 localStorage.setItem("todos",JSON.stringify(this.todos)); 
             }else{
-                alert('O texto da tarefa é obrigatório!')
+                alert('O texto da tarefa é obrigatório!!')
             }
         },
         clearAll: function(){
